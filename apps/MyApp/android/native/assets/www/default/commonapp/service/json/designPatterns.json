@@ -1,0 +1,90 @@
+{
+	"data": [{
+		"id": 1,
+		"label": "Simple data entry",
+		"subLabel": "Basic",
+		"description": "This example demonstrates how to create a simple form based input on mobile.",
+		"subLabelColor": "#1ca387",
+		"image": "apps/data.png",
+		"imageActive": "apps/data-white.png",
+		"isApp": false,
+		"isPopular": true,
+		"relatedPatterns": [5],
+		"demoCtrl": "commonapp/examples/hybrid/design_patterns/simple_data_entry_pattern/View",
+		"demoWiki": "designPattern_simpleDataEntry"
+		
+	},
+	{
+		"id": 6,
+		"label": "Encrypt Cache",
+		"subLabel": "Basic",
+		"description": "Encrypt cache pattern description",
+		"subLabelColor": "#1ca387",
+		"image": "apps/data.png",
+		"imageActive": "apps/data-white.png",
+		"isApp": false,
+		"isPopular": true,
+		"relatedPatterns": [],
+		"demoCtrl": "commonapp/examples/hybrid/design_patterns/encrypt/encrypt_cache/View",
+		"demoWiki": "designPattern_Encrypt"
+		
+	},
+	{
+		"id": 5,
+		"label": "IBM API Management",
+		"subLabel": "Enterprise",
+		"description": "Demonstrates a custom Bower Module that you can use to interface with the internal IBM API Management service.",
+		"subLabelColor": "#1ca387",
+		"image": "apps/data.png",
+		"imageActive": "apps/data-white.png",
+		"isApp": false,
+		"isPopular": true,
+		"relatedPatterns": [1],
+		"demoCtrl": "commonapp/examples/bower_modules/ibm-api-management/View",
+		"demoWiki": "enterprise-ibm-api-management"
+	},
+	{
+		"id": 2,
+		"label": "Software Product Navigator",
+		"subLabel": "Web",
+		"description": "Describe SPN",
+		"subLabelColor": "#1ca387",
+		"image": "apps/notes.png",
+		"imageActive": "apps/notes-white.png",
+		"isApp": true,
+		"isPopular": true,
+		"relatedPatterns": []
+	},
+	{
+		"id": 3,
+		"label": "IBM Vani",
+		"subLabel": "Hybrid",
+		"description": "Describe Vani",
+		"subLabelColor": "#1ca387",
+		"image": "apps/mic.png",
+		"imageActive": "apps/mic-white.png",
+		"isApp": true,
+		"isPopular": true,
+		"relatedPatterns": [],
+		"urlScheme": {
+			"ios": "VaniFaces://",
+			"android": "com.ibm.vani.faces"
+		}
+	},
+	{
+		"id": 4,
+		"label": "IBM Expertise",
+		"subLabel": "Native",
+		"description": "Describe IBM Expertise",
+		"subLabelColor": "#1ca387",
+		"image": "apps/book.png",
+		"imageActive": "apps/book-white.png",
+		"isApp": true,
+		"isPopular": true,
+		"relatedPatterns": [],
+		"urlScheme": {
+			"ios": "ibmel://",
+			"android": "com.ibm.lotus.expertise.mobile"
+		}
+	}]
+}

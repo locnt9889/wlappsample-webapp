@@ -1,0 +1,27 @@
+{
+	"amdLoad": [
+        "angular-ui-router",
+        "angular-route",
+        "angular-animate",                
+        "angular-sanitize",
+        "ionic",
+        "ionic-angular",
+        "chartjs",
+        "ui-bootstrap"],
+	
+	"modules": [
+	{
+		"name": "commonapp",
+		"deps": ["ngSanitize","ionic","ui.bootstrap"],
+		"controllers": ["commonapp/controllers/AppCtrl",
+						"commonapp/controllers/LoginView",
+						"commonapp/controllers/HomeView"],
+		"directives": [],
+
+		"filters": [],
+		"factories": [],
+		"services" : [],
+		"config": ["commonapp/config"],
+		"run": ["commonapp/run"]
+	}]
+}

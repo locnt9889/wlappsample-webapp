@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry excluding="**/bower_components/**|**/js/lib/**|**/native/**|**/nativeEmptyApp/**|**/node_modules/**|.README.md.html|.bowerrc|.classpath|.gitignore|.project|.yo-rc.json|Gruntfile.js|JSHintReporter.js|README.md|bower.json|grunt-config.json|karma.conf-edit.js|karma.conf.js|package.json|require-main.js" kind="src" path=""/>
+	<classpathentry kind="con" path="com.worklight.studio.plugin.wizards.newproject.apiLibrary"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

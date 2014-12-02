@@ -1,0 +1,10 @@
+{
+  "generator-catalyst": {
+    "wlAppName": "MyApp",
+    "wlEnvs": [
+      "ipad"
+    ],
+    "jsFramework": "ionic",
+    "wlVersion": "WL_6_2"
+  }
+}

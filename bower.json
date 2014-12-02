@@ -1,0 +1,25 @@
+{
+  "name": "myApp",
+  "version": "2.0.0",
+  "authors": [],
+  "license": "",
+  "dependencies": {
+    "requirejs": "~2.1.12",
+    "requirejs-i18n": "~2.0.4",
+    "requirejs-text": "~2.0.12",
+    "angular": "~1.2.16",
+    "angular-animate": "~1.2.16",
+    "angular-sanitize": "~1.2.16",
+    "angular-route": "~1.2.16",
+    "angular-ui-router": "~0.2.10",
+    "angular-mocks": "~1.2.16",
+    "q": "~1.0.0",
+    "ionic": "driftyco/ionic-bower#v1.0.0-beta.11",
+    "chartjs": "~0.2.0",
+    "angular-bootstrap": "~0.11.0",
+    "ibm-api-management": "~1.0.1",
+    "ibm-email-sender": "~1.0.2",
+    "ibm-connections-api": "~1.0.1",
+    "ibm-auth": "~1.0.3"
+  }
+}

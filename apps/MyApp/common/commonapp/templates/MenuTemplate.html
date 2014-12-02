@@ -1,0 +1,23 @@
+<ion-side-menus> 
+	<ion-pane ion-side-menu-content drag-content="false"> 
+		<ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view> 
+	</ion-pane> 
+	<ion-side-menu side="right"> 
+		<header class="bar bar-header bar-stable">
+			<h1 class="title">{{text.examples}}</h1>
+		</header> 
+		<ion-content class="has-header">
+			<div class="app-right-menu">
+				<aside>
+					<!-- navigation -->
+					<nav>
+						<ul class="link-no-underline">
+							<li><a data-menu-close>Home</a></li>
+							<li><a data-menu-close>About</a></li>
+						</ul>
+					</nav>
+				</aside>
+			</div>
+		</ion-content> 
+	</ion-side-menu> 
+</ion-side-menus>

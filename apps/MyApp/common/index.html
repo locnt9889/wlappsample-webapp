@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>webapp</title>
+    		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    		-->
+            <link rel="stylesheet" href="js/lib/ionic/css/ionic.min.css">
+    		<link rel="stylesheet" href="css/main.css">   
+
+    	</head>
+
+        <!--
+            Workaround: The classes added to the body are normally suppose to be added by the ionic platform cordova plugin, but that is
+            broken in Worklight
+         -->
+    	<body style="display: none;" class="grade-a platform-webview platform-cordova platform-ios platform-ios7 platform-ios7_1">
+
+            <!-- This is the main viewport that will render the state defined in commonapp/config.js -->
+            <ion-nav-view></ion-nav-view>    		
+    		<script src="js/lib/requirejs/require.js"></script>   		
+    		<script src="js/require-main.js"></script>
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    		
+    		<!-- 
+    			This causes the web page to be reloaded when the "watch" task determines that files have changed after a save.
+    			Please REMOVE before going to production!  The best way to take advantage of this productivity boost, is to open
+    			a Chrome or other web-kit browser (e.g. Safari) and load the app there using a mobile browser simulator.
+    		<script src="//localhost:35729/livereload.js"></script>
+    		-->
+    		
+    	</body>
+</html>
